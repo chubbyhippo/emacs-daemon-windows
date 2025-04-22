@@ -5,7 +5,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/chubbyhippo/emacs-daem
 ```
 ## create shortcut
 ```
-"C:\Path\To\Emacs\bin\emacsclientw.exe" -c -n -a ""
+"C:\emacs\bin\emacsclientw.exe" -c -n -a ""
 ```
 ## Add to path
 ```powershell
