@@ -7,3 +7,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/chubbyhippo/emacs-daem
 ```
 "C:\Path\To\Emacs\bin\emacsclientw.exe" -c -n -a ""
 ```
+## Add to path
+```powershell
+[Environment]::SetEnvironmentVariable("Path", $env:Path + ";$HOME\scoop\apps\msys2\current\mingw64\bin", [EnvironmentVariableTarget]::User)
+```
