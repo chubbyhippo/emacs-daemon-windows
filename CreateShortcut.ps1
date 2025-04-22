@@ -1,6 +1,6 @@
 # PowerShell script to create a shortcut for Emacs client
 $TargetPath = "C:\emacs\bin\emacsclientw.exe"
-$ShortcutPath = "$env:USERPROFILE\Desktop\Emacs Client.lnk"
+$ShortcutPath = "$env:USERPROFILE\Desktop\emacs.lnk"
 $Arguments = '-c -n -a ""'
 $ShortcutDescription = "Launch Emacs Client"
 
