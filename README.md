@@ -7,7 +7,3 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/chubbyhippo/emacs-daem
 ```powershell
 irm https://raw.githubusercontent.com/chubbyhippo/emacs-daemon-windows/refs/heads/main/CreateShortcut.ps1 | iex
 ```
-## Add to path
-```powershell
-[Environment]::SetEnvironmentVariable("Path", $env:Path + ";$HOME\scoop\apps\msys2\current\mingw64\bin", [EnvironmentVariableTarget]::User)
-```
